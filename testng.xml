@@ -1,0 +1,118 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="account.Account">
+		<classes>
+			<class name="account.Account" />
+		</classes>
+	</test>
+	<test name="account.FleetId">
+		<classes>
+			<class name="account.FleetId" />
+		</classes>
+	</test>
+	<test name="account.DayTime">
+		<classes>
+			<class name="account.DayTime" />
+		</classes>
+	</test>
+	<test name="account.Location">
+		<classes>
+			<class name="account.Location" />
+		</classes>
+	</test>
+	<test name="account.Product">
+		<classes>
+			<class name="account.Product" />
+		</classes>
+	</test>
+	<test name="account.ProductGroup">
+		<classes>
+			<class name="account.ProductGroup" />
+		</classes>
+	</test>
+	<test name="account.SiteGroups">
+		<classes>
+			<class name="account.SiteGroups" />
+		</classes>
+	</test>
+	<test name="account.SpecialMessage">
+		<classes>
+			<class name="account.SpecialMessage" />
+		</classes>
+	</test>
+	<test name="account.Velocity">
+		<classes>
+			<class name="account.Velocity" />
+		</classes>
+	</test>
+	<test name="card.Card">
+		<classes>
+			<class name="card.Card" />
+		</classes>
+	</test>
+	<test name="card.DayTime">
+		<classes>
+			<class name="card.DayTime" />
+		</classes>
+	</test>
+	<test name="card.FleetId">
+		<classes>
+			<class name="card.FleetId" />
+		</classes>
+	</test>
+	<test name="card.History">
+		<classes>
+			<class name="card.History" />
+		</classes>
+	</test>
+	<test name="card.Location">
+		<classes>
+			<class name="card.Location" />
+		</classes>
+	</test>
+	<test name="card.MobilePay">
+		<classes>
+			<class name="card.MobilePay" />
+		</classes>
+	</test>
+	<test name="card.OneOff">
+		<classes>
+			<class name="card.OneOff" />
+		</classes>
+	</test>
+	<test name="card.Product">
+		<classes>
+			<class name="card.Product" />
+		</classes>
+	</test>
+	<test name="card.Velocity">
+		<classes>
+			<class name="card.Velocity" />
+		</classes>
+	</test>
+	<test name="cardbundle.Cardbundle">
+		<classes>
+			<class name="cardbundle.Cardbundle" />
+		</classes>
+	</test>
+	<test name="cardbundle.DayTime">
+		<classes>
+			<class name="cardbundle.DayTime" />
+		</classes>
+	</test>
+	<test name="cardbundle.Location">
+		<classes>
+			<class name="cardbundle.Location" />
+		</classes>
+	</test>
+	<test name="cardbundle.Product">
+		<classes>
+			<class name="cardbundle.Product" />
+		</classes>
+	</test>
+	<test name="cardbundle.Velocity">
+		<classes>
+			<class name="cardbundle.Velocity" />
+		</classes>
+	</test>
+</suite>

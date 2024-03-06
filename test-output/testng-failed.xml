@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="account.Location(failed)">
+    <classes>
+      <class name="account.Location">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="Account_CreateCurrentLocation"/>
+          <include name="Account_EditCurrentLocation"/>
+        </methods>
+      </class> <!-- account.Location -->
+    </classes>
+  </test> <!-- account.Location(failed) -->
+  <test thread-count="5" name="account.SiteGroups(failed)">
+    <classes>
+      <class name="account.SiteGroups">
+        <methods>
+          <include name="Account_Delete3rdPartySite"/>
+          <include name="Account_DeleteGroupShellSite"/>
+          <include name="Account_AddGroupShellSite"/>
+          <include name="Account_Remove3rdPartySiteGroup"/>
+          <include name="quit"/>
+          <include name="Account_Add3rdPartySiteGroup"/>
+          <include name="Account_RemoveGroupShellSite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- account.SiteGroups -->
+    </classes>
+  </test> <!-- account.SiteGroups(failed) -->
+</suite> <!-- Failed suite [Suite] -->
