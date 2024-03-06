@@ -6,6 +6,6 @@ https://cfgwtest.cgi.com:8085/CGPINT3/index.aspx
 
 Tech used :
 
-TestNG
-POM - 
-PageFactory- @FindBy annotation,
+- TestNG
+- POM - 
+- PageFactory- @FindBy annotation,
